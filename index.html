@@ -58,6 +58,32 @@ footer {
     text-align: center;
     padding: 12px;
 }
+ .contact {
+    background: #fafafa;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-item span {
+    font-size: 22px;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 15px;
+    color: #333;
+}
+   
 </style>
 </head>
 
@@ -75,15 +101,29 @@ footer {
     <img src="Resimler/3.jpg">
 </div>
 
-<div class="container">
+<div class="box contact">
+    <h2>İletişim & Hesaplar</h2>
 
-    <div class="box">
-        <h2>İletişim</h2>
-        <p>Youtube: Kadirbey Insaat</p>
-        <p>Instagram: KADIRBEY YIKIM</p>
-        <p>Telefon: 0532 780 99 78</p>
-        <p>E-posta: kadirbeyinsaatyikim@gmail.com</p>
+    <div class="contact-item">
+        <span>📞</span>
+        <p><strong>Telefon:</strong> 0532 780 99 78</p>
     </div>
+
+    <div class="contact-item">
+        <span>✉️</span>
+        <p><strong>E-posta:</strong> kadirbeyinsaatyikim@gmail.com</p>
+    </div>
+
+    <div class="contact-item">
+        <span>📸</span>
+        <p><strong>Instagram:</strong> KADİRBEY YIKIM</p>
+    </div>
+
+    <div class="contact-item">
+        <span>▶️</span>
+        <p><strong>YouTube:</strong> kadirbey insaat</p>
+    </div>
+</div>
 
     <div class="box">
         <h2>Hakkımızda</h2>
