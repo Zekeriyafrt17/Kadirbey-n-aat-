@@ -1,16 +1,14 @@
-<h1>Konya Yıkım ve Hafriyat Hizmetleri | Kadirbey İnşaat</h1>
 <!DOCTYPE html>
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<h2>Konya Genelinde Profesyonel Yıkım Hizmetleri</h2>
-<h2>Konya Hafriyat ve Bina Yıkım Çalışmaları</h2>
+<title>Kadirbey Yıkım | Konya Yıkım ve Hafriyat</title>
 
-<title>Kadirbey İnşaat | Konya Yıkım ve Hafriyat Hizmetleri</title>
+<meta name="description" content="Kadirbey Yıkım Konya merkez ve tüm ilçelerde yıkım, hafriyat, bina yıkımı ve altyapı hizmetleri sunar. Selçuklu, Meram, Karatay yıkım işleri.">
 
-<meta name="description" content="Kadirbey İnşaat Konya genelinde yıkım ve hafriyat hizmetleri sunar. Selçuklu, Meram, Karatay ve tüm Konya ilçelerinde profesyonel yıkım işleri.">
+<meta name="keywords" content="Konya yıkım, Konya hafriyat, Selçuklu yıkım, Meram yıkım, Karatay yıkım, bina yıkımı Konya, Kadirbey Yıkım">
 
 <style>
 body {
@@ -22,7 +20,7 @@ body {
 header {
     background: #2b2b2b;
     color: #fff;
-    padding: 18px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -31,17 +29,24 @@ header {
     height: 240px;
     object-fit: cover;
     display: block;
-    margin-bottom: 12px;
+    margin: 15px 0;
     border-radius: 6px;
 }
-container {
+
+@media (max-width: 768px) {
+    .galeri img {
+        height: 200px;
+    }
+}
+
+.container {
     padding: 20px;
 }
 
 .box {
     background: #fff;
-    padding: 16px;
-    margin-bottom: 16px;
+    padding: 18px;
+    margin-bottom: 18px;
     border-radius: 8px;
 }
 
@@ -50,180 +55,98 @@ container {
     color: #333;
 }
 
-textarea {
-    width: 100%;
-    resize: none;
-    padding: 10px;
-    font-size: 14px;
+.paragraf {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.iletisim-kutu {
+    background: #2b2b2b;
+    color: #fff;
+    text-align: center;
+    padding: 22px;
+    margin: 25px 0;
+    border-radius: 10px;
+}
+
+.iletisim-kutu h2 {
+    margin-bottom: 15px;
+}
+
+.iletisim-link {
+    display: block;
+    background: #ffffff;
+    color: #2b2b2b;
+    text-decoration: none;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
 footer {
     background: #2b2b2b;
     color: #fff;
     text-align: center;
-    padding: 12px;
+    padding: 14px;
 }
- .contact {
-    background: #fafafa;
-}
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.contact-item:last-child {
-    border-bottom: none;
-}
-
-.contact-item span {
-    font-size: 22px;
-}
-
-.contact-item p {
-    margin: 0;
-    font-size: 15px;
-    color: #333;
-}
-   
 </style>
+</head>
+
 <body>
 
 <header>
-    <h1>Kadirbey İnşaat</h1>
-    <p>Hafriyat • Altyapı • Güvenilir Hizmet</p>
+    <h1>KADİRBEY YIKIM</h1>
+    <p>Konya Yıkım • Hafriyat • Güvenilir Hizmet</p>
 </header>
 
-<!-- FOTOĞRAFLAR ALT ALTA -->
-<div class="Masaüstü">
-    <img src="Resimler/1.jpg">
-    <img src="Resimler/2.jpg">
-    <img src="Resimler/3.jpg">
+<div class="container galeri">
+
+    <img src="Resimler/1.jpeg" alt="Konya bina yıkımı">
+    <p class="paragraf">
+        Kadirbey Yıkım olarak Konya genelinde bina yıkımı ve kontrollü yıkım hizmetleri sunuyoruz.
+    </p>
+
+    <img src="Resimler/2.jpg" alt="Selçuklu yıkım hafriyat">
+    <p class="paragraf">
+        Selçuklu, Meram ve Karatay ilçelerinde profesyonel hafriyat ve moloz kaldırma işleri yapıyoruz.
+    </p>
+
+    <img src="Resimler/3.jpeg" alt="Konya hafriyat çalışması">
+    <p class="paragraf">
+        Modern iş makineleri ve deneyimli ekibimizle her ölçekte yıkım işini güvenle tamamlıyoruz.
+    </p>
+
 </div>
 
-<div class="box contact">
-    <h2>İletişim & Hesaplar</h2>
+<div class="container box">
+    <h2>Hakkımızda</h2>
 
-    <div class="contact-item">
-        <span>📞</span>
-        <p><strong>Telefon:</strong> 0532 780 99 78</p>
-    </div>
-
-    <div class="contact-item">
-        <span>✉️</span>
-        <p><strong>E-posta:</strong> kadirbeyinsaatyikim@gmail.com</p>
-    </div>
-
-    <div class="contact-item">
-        <span>📸</span>
-        <p><strong>Instagram:</strong> KADİRBEY YIKIM</p>
-    </div>
-
-    <div class="contact-item">
-        <span>▶️</span>
-        <p><strong>YouTube:</strong> kadirbey insaat</p>
-    </div>
+    <p class="paragraf">Kadirbey Yıkım Konya merkezli bir yıkım ve hafriyat firmasıdır.</p>
+    <p class="paragraf">Konya’nın tüm ilçelerinde yıkım, bina sökümü ve hafriyat işleri yapmaktayız.</p>
+    <p class="paragraf">Yıkılan yapılardan çıkan 2. el kapı, pencere ve malzemeler değerlendirilmektedir.</p>
+    <p class="paragraf">Çevreye duyarlı ve güvenli yıkım teknikleri kullanıyoruz.</p>
+    <p class="paragraf">Küçük, orta ve büyük ölçekli tüm yıkım projelerini üstleniyoruz.</p>
+    <p class="paragraf">Hızlı, temiz ve güvenilir hizmet anlayışıyla çalışıyoruz.</p>
+    <p class="paragraf">Konya yıkım ve hafriyat denince akla gelen firmalardan biri olmayı hedefliyoruz.</p>
 </div>
 
-    <div class="box">
-        <h2>Hakkımızda</h2>
-<p>
-<strong>Kadirbey İnşaat</strong>, yıkım, hafriyat ve altyapı alanlarında
-faaliyet gösteren, güvenilirliği ve iş disiplinini ön planda tutan
-bir inşaat firmasıdır. Kurulduğumuz günden bu yana, müşteri
-memnuniyetini temel ilke edinerek birçok başarılı projeye imza attık.
-</p>
+<div class="container">
+    <div class="iletisim-kutu">
+        <h2>İletişim & Sosyal Medya</h2>
 
-
-
-        
-<p>
-
-    
-Firmamız, bina yıkım işleri, hafriyat çalışmaları, çevre düzenleme ve
-altyapı hizmetleri başta olmak üzere geniş bir hizmet yelpazesinde
-faaliyet göstermektedir. Yıkımını gerçekleştirdiğimiz yapılardan çıkan
-<strong>2. el kapı, pencere ve kullanılabilir yapı malzemeleri</strong>
-ekonomiye kazandırılmakta ve uygun fiyatlarla satışa sunulmaktadır.
-</p>
-
-        
-<p>
-
-Kadirbey İnşaat olarak tüm çalışmalarımızda iş güvenliği kurallarına
-uyarak, çevreye duyarlı ve kontrollü bir şekilde hizmet vermekteyiz.
-Modern iş makineleri, güçlü ekipman parkurumuz ve alanında deneyimli
-ekibimizle projeleri zamanında ve eksiksiz tamamlamayı hedefliyoruz.
-</p>
-
-
-        
-<p>
-Hafriyat ve altyapı çalışmalarında kaliteli malzeme kullanımı ve
-profesyonel uygulama anlayışıyla hareket ediyor, küçük ölçekli
-işlerden büyük projelere kadar her işi aynı ciddiyetle ele alıyoruz.
-Müşterilerimizin ihtiyaçlarına uygun çözümler sunarak uzun vadeli
-iş birlikleri kurmayı amaçlıyoruz.
-</p>
-
-
-        
-<p>
-<strong>Kadirbey İnşaat</strong>, dürüstlük, şeffaflık ve kaliteli hizmet
-anlayışıyla sektöründe güvenilir bir isim olmayı sürdürmektedir.
-Bizimle iletişime geçerek yıkım, hafriyat ve altyapı ihtiyaçlarınız
-hakkında detaylı bilgi alabilirsiniz.
-</p>
-<h2>Konya Genelinde Yıkım ve Hafriyat</h2>
-
-<p>
-<strong>Kadirbey İnşaat</strong>, Konya yıkım ve hafriyat hizmetleri
-alanında faaliyet göstermektedir. Firmamız, Konya merkez ve tüm
-ilçelerinde bina yıkım, hafriyat ve altyapı çalışmaları yapmaktadır.
-</p>
-
-<p>
-Özellikle <strong>Selçuklu yıkım</strong>, <strong>Meram hafriyat</strong>,
-<strong>Karatay yıkım işleri</strong> başta olmak üzere Konya’nın tüm
-bölgelerinde güvenli ve kontrollü yıkım hizmetleri sunmaktayız.
-</p>
-
-<p>
-Kadirbey İnşaat olarak; <strong>Ereğli</strong>, <strong>Beyşehir</strong>,
-<strong>Akşehir</strong>, <strong>Seydişehir</strong>, <strong>Cihanbeyli</strong>,
-<strong>Ilgın</strong>, <strong>Kulu</strong> ve Konya’nın diğer tüm
-ilçelerinde yıkım ve hafriyat işleri almaktayız.
-</p>
-  <p>
-<strong>Kadirbey İnşaat</strong>, Konya yıkım hizmetleri alanında
-uzmanlaşmış bir firmadır. Konya merkez ve ilçelerinde bina yıkımı,
-kontrollü yıkım, moloz kaldırma ve hafriyat çalışmaları yapmaktayız.
-</p>
-
-<p>
-Özellikle <strong>Konya yıkım firması</strong> arayışında olan müşterilerimiz
-için güvenli, hızlı ve çevreye duyarlı çözümler sunuyoruz.
-Konya hafriyat ve yıkım işleri firmamız tarafından profesyonel ekipmanlarla
-gerçekleştirilmektedir.
-</p>
-
-<p>
-<strong>Selçuklu yıkım</strong>, <strong>Meram yıkım</strong> ve
-<strong>Karatay yıkım</strong> başta olmak üzere Konya’nın tüm ilçelerinde
-yıkım ve hafriyat hizmeti veriyoruz.
-</p>
-
-<p>
-Konya yıkım işleri kapsamında eski bina yıkımı, fabrika yıkımı,
-müstakil ev yıkımı ve saha temizliği hizmetleri sunmaktayız.
-</p>  </div>
+        <a href="tel:05327809978" class="iletisim-link">📞 0532 780 99 78</a>
+        <a href="https://www.instagram.com/kadirbeyyikim" target="_blank" class="iletisim-link">📸 Instagram: KADİRBEY YIKIM</a>
+        <a href="https://www.youtube.com/@kadirbeyinsaat" target="_blank" class="iletisim-link">▶️ YouTube: Kadirbey İnşaat</a>
+        <a href="mailto:kadirbeyinsaatyikim@gmail.com" class="iletisim-link">✉️ kadirbeyinsaatyikim@gmail.com</a>
+    </div>
+</div>
 
 <footer>
-    © 2026 Kadirbey İnşaat – Tüm Hakları Saklıdır
+    © 2026 Kadirbey Yıkım – Konya
 </footer>
 
 </body>
 </html>
+
